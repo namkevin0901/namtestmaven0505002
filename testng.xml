@@ -6,7 +6,7 @@
             <class name="com.test.LoginPage">
                 <methods>
                     <include name="TC01" />
-                    <include name="TC03" />
+                    <include name="TC02" />
                 </methods>
             </class>
         </classes>
