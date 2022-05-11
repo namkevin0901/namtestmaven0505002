@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 
 public class LoginPage extends BassClass {
 
-    @Description("Verify home page title")
-    @Story("Test verify base page title")
+    @Description("Description 01 - Verify home page title")
+    @Story("This is tag Store")
     @Test
     public void TC01 () {
         Log.info("Đây là log info - TC01");
@@ -16,7 +16,7 @@ public class LoginPage extends BassClass {
     }
 
     @Step("Step 02 - This is test case 2")
-    @Description("Step 02 - This is test case 2")
+    @Description("Description 02 - This is test case 2")
     @Test
     public void TC02 () {
         Log.info("Đây là log info - TC02");
@@ -24,7 +24,7 @@ public class LoginPage extends BassClass {
     }
 
     @Step("Step 03 - This is test case 3")
-    @Description("Step 03 - This is test case 3")
+    @Description("Description 03 - This is test case 3")
     @Test
     public void TC03 () {
         Log.info("Đây là log info - TC03");
@@ -32,7 +32,7 @@ public class LoginPage extends BassClass {
     }
 
     @Step("Step 04 - This is test case 4")
-    @Description("Step 04 - This is test case 4")
+    @Description("Description 04 - This is test case 4")
     @Test
     public void TC04 () {
         Log.info("Đây là log info - TC04");
