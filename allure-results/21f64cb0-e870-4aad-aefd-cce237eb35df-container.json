@@ -1,0 +1,1 @@
+{"uuid":"21f64cb0-e870-4aad-aefd-cce237eb35df","name":"com.test.BassClass.setup","children":["0d0cdbdc-b28a-44e9-ada3-e2306d448110"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1652220829003,"stop":1652220833812}],"afters":[],"start":1652220829003,"stop":1652220833812}

@@ -9,6 +9,7 @@
                     <include name="TC02" />
                     <include name="TC03" />
                     <include name="TC04" />
+                    <include name="TC05" />
                 </methods>
             </class>
         </classes>
