@@ -3,11 +3,6 @@
 <suite name="First Suite" verbose="1">
     <test name="Second Test - Run TC01">
         <classes>
-            <class name="com.pages.LoginPage">
-                <methods>
-                    <include name="TC01" />
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>
