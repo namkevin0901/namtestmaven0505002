@@ -1,0 +1,1 @@
+{"uuid":"8357ef99-912c-4fc1-bb69-74ad91fe88ea","name":"com.bases.BassClass.setup","children":["a54e9fa3-8854-45aa-9b90-0068edde5da6"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1652567609356,"stop":1652567636793}],"afters":[],"start":1652567609354,"stop":1652567636794}

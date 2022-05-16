@@ -3,13 +3,18 @@
 <suite name="First Suite" verbose="1">
     <test name="First Test">
         <classes>
-            <class name="com.test.LoginPage">
+<!--            <class name="com.pages.LoginPage">-->
+<!--                <methods>-->
+<!--                    <include name="TC01" />-->
+<!--                    <include name="TC02" />-->
+<!--                    <include name="TC03" />-->
+<!--                    <include name="TC04" />-->
+<!--                    <include name="TC05" />-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="com.testcases.LogInTestCase">
                 <methods>
-                    <include name="TC01" />
-                    <include name="TC02" />
-                    <include name="TC03" />
-                    <include name="TC04" />
-                    <include name="TC05" />
+                    <include name="LogInSuccess"/>
                 </methods>
             </class>
         </classes>
