@@ -9,6 +9,7 @@
             <class name="com.testcases.LogInTestCase">
                 <methods>
                     <include name="LogInSuccess"/>
+                    <include name="LogInSuccess2"/>
                 </methods>
             </class>
         </classes>

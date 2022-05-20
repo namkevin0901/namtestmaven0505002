@@ -24,6 +24,15 @@ public class LogInTestCase extends BassClass {
     }
 
     @Test
+    public void LogInSuccess2 () {
+        System.out.println(driver);
+        // nguyên tắc để kế thừa trong OOP
+        // cái này quan trọng
+        loginPage = new LoginPage(driver);
+        loginPage.SignIn("standard_user1", passwordstandard);
+    }
+
+    @Test
     public void LogInSuccess () {
         System.out.println(driver);
         // nguyên tắc để kế thừa trong OOP
