@@ -29,7 +29,7 @@ public class LogInTestCase extends BassClass {
         // nguyên tắc để kế thừa trong OOP
         // cái này quan trọng
         loginPage = new LoginPage(driver);
-        loginPage.SignIn("standard_user1", passwordstandard);
+        loginPage.SignIn(userstandard, passwordstandard);
     }
 
     @Test
