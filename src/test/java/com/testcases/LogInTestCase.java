@@ -2,6 +2,7 @@ package com.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.bases.BassClass;
@@ -17,7 +18,7 @@ public class LogInTestCase extends BassClass {
     String userstandard = "standard_user";
     String passwordstandard = "secret_sauce";
 
-    @BeforeClass
+    @BeforeMethod
     public void setUp () {
         // đã khởi tạo browser
         driver = getDriver();

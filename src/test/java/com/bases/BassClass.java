@@ -6,9 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 
 import java.util.concurrent.TimeUnit;
 //import org.testng.annotations.BeforeMethod;
@@ -68,7 +66,7 @@ public class BassClass {
 
     // chạy hàm initializeTestBaseSetup trước khi class này được gọi
     @Parameters({"browserType", "webUrl"})
-    @BeforeClass
+    @BeforeMethod
     public void initializeTestBaseSetup (String browserType, String webUrl) {
         try {
             // khởi tạo driver và browser
@@ -78,7 +76,7 @@ public class BassClass {
         }
     }
 
-    @AfterClass
+    @AfterMethod
     public void tearDown() {
         driver.quit();
     }
