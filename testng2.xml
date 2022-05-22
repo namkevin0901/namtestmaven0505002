@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="POM Suite" verbose="1">
-    <parameter name="browserType" value="chrome" />
-    <parameter name="webUrl"
-               value="https://www.saucedemo.com/" />
+<!--    <parameter name="browserType" value="chrome" />-->
+<!--    <parameter name="webUrl"-->
+<!--               value="https://www.saucedemo.com/" />-->
     <test name="Login Test">
         <classes>
             <class name="com.testcases.LogInTestCase">
