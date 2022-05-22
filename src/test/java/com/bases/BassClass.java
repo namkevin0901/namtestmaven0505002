@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 import java.util.concurrent.TimeUnit;
 //import org.testng.annotations.BeforeMethod;
 
-// chia nhỏ phần khởi tạo
+// chia hỏi phần khởi tạo
 public class BassClass {
     public WebDriver driver;
 
@@ -65,7 +65,7 @@ public class BassClass {
     }
 
     // chạy hàm initializeTestBaseSetup trước khi class này được gọi
-//    @Parameters({"browserType", "webUrl"})
+    @Parameters({"browserType", "webUrl"})
     @BeforeMethod
     public void initializeTestBaseSetup (String browserType, String webUrl) {
         try {

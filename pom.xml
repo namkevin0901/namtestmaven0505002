@@ -78,10 +78,6 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>${xmlFiles}</suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <excutionBrowser>${browserType}</excutionBrowser>
-                        <appURL>${webUrl}</appURL>
-                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
